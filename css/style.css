@@ -1,0 +1,134 @@
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+header {
+    background-image: url("../images/header-background.png");
+    width: 100vw;  
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; /* Resize the background image to cover the entire container */
+   
+}
+
+
+div.logo {
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+  display: flex;
+  
+}
+.navcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li{
+  display: inline-block;      
+  vertical-align: top;  
+}
+
+nav{
+  width: 70%;
+  padding: 1%;
+  display: flex;
+  /* right: 0 */   
+}
+ ul{
+   width: 50%;
+   margin-left: auto;
+ }
+   
+ a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin-left: 24px; } 
+    h1 {
+
+      font-family: Public Sans ;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+      color: black;
+      text-align: center;
+      margin:auto;
+      width: 496px;
+      height: 168px;
+      
+      text-align: center;
+    } 
+
+  
+    .heroImg{
+      height: 529.98px;
+      padding: 5% ;
+      width:90vw;
+      margin: 0 auto;
+      } 
+    .image {
+            display: inline-block;
+          
+
+    }
+    
+    .content {
+      max-width: 30%;
+      /* float:right; */
+      display: inline-block;
+      vertical-align: top;
+      margin: 5%;
+    }
+    .herotext {
+      font-family: Public Sans;
+      font-size: 16px;
+      line-height:24px ;
+      font-weight: 400;
+      font-style: normal;
+      color:black;         
+      width: 698.53px;
+      height: 144px;
+    }
+    
+
+
+
+  
+   footer {
+    background-image: url("../images/header-background.png");
+    width: 100vw;  
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; /* Resize the background image to cover the entire container */
+   text-align: center;
+   padding: 5% 0 3% 0 ;
+ }
+ button{
+  padding: 16px 10%;
+  background: #426318;
+border-radius: 100px;
+margin-bottom: 3%;
+color: white;
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+
+ }
+ 
+ .copyright{
+  text-align: center;
+
+
+ }
+ 
+ 
+
+
+
+
+
+
